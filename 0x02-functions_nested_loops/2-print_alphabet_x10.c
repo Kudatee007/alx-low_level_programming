@@ -19,7 +19,7 @@ void print_alphabet_x10(void)
 		letter++;
 	}
 
-	_putchar(i);
+	_putchar('\n');
 	i++;
 	}
 }
