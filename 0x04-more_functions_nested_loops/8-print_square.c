@@ -1,4 +1,4 @@
-#include <main.h>
+#include "main.h"
 
 /**
  * print_square - A function that prints a square, followed by a new line
@@ -21,7 +21,7 @@ void print_square(int size)
 			{
 				_putchar('#');
 			}
-			_putchar('\n);
+			_putchar('\n');
 		}
 	}
 }
