@@ -1,5 +1,7 @@
 #include "main.h"
 #include <stdio.h>
+#include <unistd.h>
+
 
 /**
  * _puts - A function that prints a string
@@ -12,10 +14,9 @@ void _puts(char *str)
 
 	while (str[i] != '\0')
 	{
-		write(1, &str[i], 1);
+		write(STDOUT_FILENO, &str[i], 1);
 		i++;
 	}
 
-	write(1, "\n", 1);
+	write(STDOUT_FILENO, "\n", 1);
 }
-
