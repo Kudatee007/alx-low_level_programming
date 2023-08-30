@@ -13,5 +13,8 @@ int calculate_sqrt(int n, int guess);
 int is_prime_number(int n);
 int is_prime_recursive(int n, int divisor);
 int is_prime_recursive(int n, int divisor);
+int is_palindrome_recursive(char *s, int start, int end);
+int is_palindrome(char *s);
+int is_palindrome_recursive(char *s, int start, int end);
 
 #endif /* MAIN_H */
