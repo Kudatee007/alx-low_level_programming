@@ -16,5 +16,8 @@ int is_prime_recursive(int n, int divisor);
 int is_palindrome_recursive(char *s, int start, int end);
 int is_palindrome(char *s);
 int is_palindrome_recursive(char *s, int start, int end);
+int wildcmp_recursive(char *s1, char *s2);
+int wildcmp(char *s1, char *s2);
+int wildcmp_recursive(char *s1, char *s2);
 
 #endif /* MAIN_H */
